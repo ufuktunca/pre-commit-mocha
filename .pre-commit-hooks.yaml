@@ -2,7 +2,7 @@
     name: mocha
     entry: my-cmd-mod.sh
     language: node
-    files: \.(ts|tsx)$
+    files: "**/*"
     args: []
 
 
