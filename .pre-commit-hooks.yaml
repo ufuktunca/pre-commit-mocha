@@ -1,6 +1,6 @@
 -   id: mocha
     name: mocha
-    entry: mocha
+    entry: my-cmd-mod.sh
     language: node
     files: \.(ts|tsx)$
     args: []
