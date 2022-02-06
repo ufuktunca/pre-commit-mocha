@@ -2,7 +2,7 @@
     name: 'my-cmd-mod'
     entry: my-cmd-mod.sh
     language: node
-    files: "**/*"
+    files: \.(ts|tsx)$
     args: []
 
 
