@@ -1,0 +1,10 @@
+-   id: mocha
+    name: mocha
+    entry: mocha
+    language: node
+    files: \.(ts|tsx)$
+    args: []
+
+
+    # Use additional_dependencies to install the actual node package
+    minimum_pre_commit_version: 0.12.0
