@@ -1,7 +1,7 @@
 -   id: my-cmd-mod
     name: 'my-cmd-mod'
     entry: my-cmd-mod.sh
-    language: node
+    language: script
     files: \.(ts|tsx)$
     args: []
 
