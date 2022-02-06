@@ -1,5 +1,5 @@
--   id: mocha
-    name: mocha
+-   id: my-cmd-mod
+    name: 'my-cmd-mod'
     entry: my-cmd-mod.sh
     language: node
     files: "**/*"

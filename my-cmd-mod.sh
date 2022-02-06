@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
-. "$(dirname "${0}")/lib/prepare-my-cmd.bash"
-. "$(dirname "${0}")/lib/cmd-mod.bash"
+#!/bin/sh
+"$@"
+exec "env TS_NODE_PROJECT=\"tsconfig.testing.json\" mocha --parallel --require ts-node/register 'src/test/**/*.ts'"
